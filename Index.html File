@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/home.css">
+  <title>Knoww</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Navigation Bar -->
+
+    <div class="navbar-container">
+      <div class="navbar">
+        <div class="navbar-logo">
+          K
+        </div>
+        <div class="navbar-items">
+          <div class="navbar-item">
+            <a href="./pages/facts.html">Facts</a>
+          </div>
+          <div class="navbar-item-btn">
+            <a href="./pages/action.html">Take Action</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Title and Intro Description -->
+
+    <div class="info-container">
+      <div class="info">
+        <div class="info-left-container">
+          <div class="info-left">
+            <div class="light-title">
+              <span class="title-logo">
+                Knoww
+              </span>
+              <span class="title-logo-rest">
+                Your Rights
+              </span>
+            </div>
+            <div class="title">
+              Supporting Marginal genders and <span class="title-women">
+                Women
+              </span> in STEM.
+            </div>
+            <div class="title-btn">
+              <div class="title-btn-text">
+                Read more
+              </div>
+              <svg width="24" height="24" fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21 11.004H6.414l5.293-5.293-1.414-1.414-7.707 7.707 7.707 7.707 1.414-1.414-5.293-5.293H21v-2Z">
+                </path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="info-right-container"></div>
+      </div>
+    </div>
+
+    <!-- Content -->
+
+    <div class="content">
+      <div class="question">
+        What exactly in STEM?
+      </div>
+      <div class="answer">
+        STEM Education, at its core, simply means educating students in four specific disciplines, namely,
+        Science, Technology, Engineering, and Mathematics (collectively shortened as STEM). Instead of training
+        students in any one of these domains, STEM combines all four in an interdisciplinary and applied
+        approach, so as to better equip students to have a career and considering real-world applications.
+      </div>
+      <div class="question">
+        Understanding the STEM problem
+      </div>
+      <div class="answer">
+        Women and non-binary continue to be underrepresented in science, technology, engineering, and
+        math (STEM). Gender discrimination and gender bias reinforce cultural stereotypes about women and their
+        ability to perform in male-dominated STEM fields. Greater policy intervention can bolster national
+        response to
+        gender-based harassment and discrimination. There are four major efforts that individual institutions,
+        local
+        governments, and the federal government can support to combat gender discrimination in STEM: (1) invest
+        in
+        early education initiatives for increasing female representation,(2) institute stronger state and
+        federal
+        policies around gender discrimination, (3) foster workplace practices that promote diversity, and (4)
+        develop
+        better quantification and metrics for assessing gender discrimination to enact more meaningful policies.
+      </div>
+      <div class="question">
+        Gender issue in Education for Science and Technology
+      </div>
+      <div class="answer">
+        Girls and women remain substantially under-represented in mathematics, science, and technology in school
+        and in the workplace. Although this problem is recognized, its complexity is widely underestimated and
+        causes are not well understood. We review prevailing explanations, which tend to concentrate either on
+        possible gender differentials in qualities such as self-confidence, or on school practices that allow
+        boys
+        to dominate classroom interaction and monopolize such technology as computers.
+      </div>
+      <div class="question">
+        How LGBTQ+ scientists would like to be included and welcomed in STEM workplaces?
+      </div>
+      <div class="answer">
+        ‘Invisible’: that is how many scientists from sexual and gender minorities (LGBT+) describe their status
+        at their institution, laboratory, classroom or office. Sexual orientation and sexual and gender identity
+        are not common topics of conversation in many science, technology, engineering and mathematics (STEM)
+        workplaces, and these scientists argue that they should be. They say that cloaking an important part of
+        their identity at work can have dangerous consequences for mental health and career advancement, both
+        for
+        individual scientists and for the disciplines that could drive them away.
+      </div>
+      <div class="question">
+        How to make STEM a safe place for trans and non-binary people?
+      </div>
+      <div class="answer">
+        it’s time for STEM to invest in the trans and non-binary community. If your company or university
+        doesn’t
+        have trans or non-binary representation then there’s a good chance you’re unintentionally promoting a
+        heteronormative, cisgender-oriented community. Because there’s a lot more trans and non-binary people
+        out
+        there than you think. If you’re not leaving the light on you shouldn’t be surprised when you can’t find
+        them.
+        <br>
+        There’s a silver lining though. Workplaces and research labs that do decide to create safe spaces for
+        trans and non-binary people stand a pretty good chance of finding out they’ve actually been there all
+        along.
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-text">
+          &copy; <span id="year"></span> Knoww Your Rights
+        </div>
+        <a href="https://github.com/ishitaojha/Knoww" target="_blank" rel="noopener noreferrer">
+          <div class="a-text">
+            Github
+          </div>
+          <svg width="24" height="24" fill="#6c63ff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M12.026 2a9.973 9.973 0 0 0-9.974 9.974c0 4.406 2.857 8.145 6.82 9.465.5.09.68-.217.68-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.09-.645.35-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.555 9.555 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2Z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <script src="./src/app.js"></script>
+</body>
+
+</html>
